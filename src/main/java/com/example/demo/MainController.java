@@ -8,6 +8,6 @@ public class MainController {
 
     @GetMapping("/hello")
     public String hello(){
-        return "Hello GDSC!";
+        return "<h1> 😎☘️Hello GDSC!🐹👍<h1/>";
     }
 }
