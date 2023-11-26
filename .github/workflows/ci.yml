@@ -17,7 +17,3 @@ jobs:
       - name: Test with Gradle
         run: ./gradlew test
         shell: bash
-        
-      - name: Test with Gradle
-        run: ./gradlew test
-        shell: bash
