@@ -9,6 +9,6 @@ public class CalculatorServiceTest {
     public void testAdd() {
         CalculatorService calculatorService = new CalculatorService();
         int result = calculatorService.add(3, 5);
-        assertEquals(7, result, "덧셈 테스트 실패");
+        assertEquals(8, result, "덧셈 테스트 실패");
     }
 }
